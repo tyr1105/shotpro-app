@@ -1,16 +1,35 @@
-# React + Vite
+# ShotPro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**免费在线App截图Mockup生成器** | Free Online App Screenshot Mockup Generator
 
-Currently, two official plugins are available:
+**在线使用**: https://tyr1105.github.io/shotpro-app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 功能特性
 
-## React Compiler
+- 拖拽上传 - 支持拖拽或点击上传App截图
+- 4种设备框 - iPhone 15 Pro / MacBook Pro / iPad Pro / Pixel 8
+- 灵活背景 - 渐变色 / 纯色 / 自定义背景图
+- 文字编辑 - 标题、副标题、字体、颜色自定义
+- 多尺寸导出 - App Store / Play Store / 社交媒体 / 自定义
+- 中英双语 - 一键切换界面语言
+- 深色主题 - 现代化暗色设计，护眼舒适
+- 完全免费 - 无需注册，无水印，本地处理
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 快速开始
 
-## Expanding the ESLint configuration
+1. 打开 ShotPro
+2. 上传你的App截图
+3. 选择设备类型和背景
+4. 添加标题文字
+5. 选择导出尺寸，点击导出
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 技术栈
+
+- React 19 + Vite
+- 纯CSS深色主题
+- Canvas API截图导出
+- 中英文i18n
+
+## License
+
+MIT License
